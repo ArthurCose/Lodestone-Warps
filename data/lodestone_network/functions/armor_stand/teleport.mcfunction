@@ -2,4 +2,4 @@
 data modify entity @s Pos set from storage lodestone_network:temp position
 
 # teleport player to armor stand
-execute at @s as @p[tag=lodestone_closest_player] run function lodestone_network:player/teleport
+execute at @s as @p[tag=lodestone_user] run function lodestone_network:player/teleport

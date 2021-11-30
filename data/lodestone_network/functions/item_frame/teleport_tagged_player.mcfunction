@@ -7,4 +7,4 @@ summon minecraft:armor_stand ~ ~ ~ {Tags: ["lodestone_teleporter"], Marker: true
 execute as @e[tag=lodestone_teleporter,limit=1] run function lodestone_network:armor_stand/teleport
 kill @e[tag=lodestone_teleporter]
 
-xp add @p[tag=lodestone_closest_player] -1 levels
+xp add @p[tag=lodestone_user] -1 levels
