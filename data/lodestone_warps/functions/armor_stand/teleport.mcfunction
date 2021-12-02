@@ -31,4 +31,7 @@ execute if score $not_end lodestone_w matches 0 in minecraft:the_end positioned 
 # play teleport sound at new location
 execute at @p[tag=lodestone_user] run playsound minecraft:block.beacon.power_select master @a ~ ~ ~ 2 1
 
+# take 1 level from the player
+xp add @p[tag=lodestone_user] -1 levels
+
 kill @s
