@@ -1,6 +1,6 @@
 {
   "pack": {
     "pack_format": 6,
-    "description": "Allows players to teleport to lodestones by placing linked compasses in item frames"
+    "description": "Allows players to teleport using lodestone compasses"
   }
 }
