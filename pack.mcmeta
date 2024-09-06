@@ -1,6 +1,6 @@
 {
   "pack": {
-    "pack_format": 6,
+    "pack_format": 48,
     "description": "Allows players to teleport using lodestone compasses"
   }
 }
